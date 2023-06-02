@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import BMI from './BMI';
+// import AgeCalendar from './AgeCalendar'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     {/* <BMI /> */}
+     {/* <AgeCalendar /> */}
+     <App />
+   
   </React.StrictMode>
 );
 
