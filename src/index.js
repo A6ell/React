@@ -2,16 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-// import BMI from './BMI';
-// import AgeCalendar from './AgeCalendar'
+import BMI from './BMI';
+import AgeCalendar from './AgeCalendar'
+import AjaxApi from './components/Ajax';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <BMI /> */}
-     {/* <AgeCalendar /> */}
-     <App />
+     {/* <BMI />
+     <AgeCalendar />
+     <App /> */}
+     <AjaxApi />
    
   </React.StrictMode>
 );
