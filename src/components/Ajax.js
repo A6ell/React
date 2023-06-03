@@ -30,20 +30,21 @@ function AjaxApi() {
         return (
             <div>
                 <table className="border table table-striped table-hover">
-                    <thead>
+                    <thead className="table-dark">
                         <tr>
-                        <th className="border">Name</th>
-                        <th className="border">City</th>
+                        <th>Name</th>
+                        <th>City</th>
                         </tr>
                         </thead>
+                        <tbody id="table-body">
                             {
                                 items.map(item => (
-                                    <tr className="border" key={item.id}>
-                                        <td className="border">{item.name}</td>
-                                        <td className="border">{item.city}</td>
+                                    <tr key={item.id}>
+                                        <td> {item.name}</td>
+                                        <td> {item.city}</td>
                                         </tr>
                                 ))}
-                                    
+                                    </tbody>
                                         </table>
                                         </div>
                             )}
