@@ -3,6 +3,7 @@ const cors = require('cors');
 // npm install --save-dev cors
 const app = express();
 app.use(cors())
+// 127.0.0.1:5000/about
 app.get('/about', (req, res) => {
   res.send('Welcome to Sage');
 });
