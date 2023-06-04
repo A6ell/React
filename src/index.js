@@ -6,6 +6,7 @@ import BMI from './BMI';
 import AgeCalendar from './AgeCalendar'
 import AjaxApi from './components/Ajax';
 import reportWebVitals from './reportWebVitals';
+import ExpressApi from './components/ExpressAPI';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,7 @@ root.render(
      {/* <BMI />
      <AgeCalendar />
      <App /> */}
-     <AjaxApi />
+     <ExpressApi />
    
   </React.StrictMode>
 );
